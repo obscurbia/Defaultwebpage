@@ -12,10 +12,21 @@
 
 
 
-/*Master container*/
+/* Master container */
 .box{
     background: grey;
     border: red 5px;
     padding: 5px;
 
+}
+
+/* Headers */
+.heads{
+    font-style: italic;
+    color: red; 
+}
+
+#h1{
+    font-size: 78px;
+    text-align: center;
 }
