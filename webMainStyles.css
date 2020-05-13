@@ -10,11 +10,14 @@
 
 
 
-
-
 /* Master container */
+.container{
+background-color: lightgray;
+}
+
+
 .box{
-    background: grey;
+    background: lightgrey;
     border: red 5px;
     padding: 5px;
 
@@ -23,10 +26,19 @@
 /* Headers */
 .heads{
     font-style: italic;
-    color: red; 
+    color: olivedrab; 
+    
 }
 
 #h1{
     font-size: 78px;
     text-align: center;
+}
+#h2{
+    font-size: 35px;
+    text-align: center;
+}
+#h3{
+    font-size: 25px;
+    text-align: left;
 }
