@@ -2,10 +2,16 @@
 
 
 
-
-
-
-
+/* CSS reset*/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
 
 
 
@@ -13,13 +19,16 @@
 /* Master container */
 .container{
 background-color: lightgray;
+border: olive 10px;
+margin-top: 0px;
+
 }
 
 
 .box{
     background: lightgrey;
-    border: red 5px;
-    padding: 5px;
+    border:black solid 5px;
+    padding: 10px;
 
 }
 
@@ -38,23 +47,29 @@ background-color: lightgray;
     font-size: 35px;
     text-align: center;
 }
-#h3{
-    font-size: 25px;
-    text-align: left;
-}
+
  #h4{
     font-size: 65px;
     text-align:center;
  }
 
 /* Navigation */
-.box .navbox{
-    font-size: 45px;
+#h3{
+    font-size: 25px;
     text-align: left;
+    border: 2px olive; 
+}
+
+.navbox{
+    font-size: 20px;
+    text-align: left;
+    width: 80px;
+    padding-bottom: 20px;
+    padding-top: 10px;
 
     
 }
-#nav1{
+#nav1{ nav-down: auto;
 
 }
 
@@ -72,5 +87,15 @@ background-color: lightgray;
 font-size: 35px;
 color: blueviolet;
 
+
+}
+
+/* Footer Stylings */
+#ft{
+    font-size: 20px;
+    background: rgb(110, 35, 35);
+    text-align: center;
+
+    
 
 }
