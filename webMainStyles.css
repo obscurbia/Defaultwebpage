@@ -68,6 +68,8 @@ margin-top: 0px;
 .navbox{
     font-size: 20px;
     text-align: left;
+    columns: 120px 1;
+    padding-bottom: 20px;
 
 }
 
@@ -110,15 +112,12 @@ grid-area: ma;
     display: grid;
     width: 100%;
     grid-template-columns: 250px 1100px ;
-    grid-template-rows: 175px repeat(3, 1fr) 40px;
+    grid-template-rows: 155px repeat(2, 1fr) 250px 40px;
     grid-template-areas: 
     "hd hd hd hd hd"
     "nav hdm hdm hdm hdm"
     "nav ma ma ma ma"
     "nav ma ma ma ma"
     "ft ft ft ft ft";
-   
-    
-  
-    color: lightgrey;
+   color:blue;
 }
