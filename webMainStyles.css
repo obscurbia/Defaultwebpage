@@ -40,11 +40,12 @@ margin-top: 0px;
     font-style: italic;
     color: olivedrab; 
      grid-area: hd;
+    
 }
 
 #h1{
     font-size: 78px;
-    text-align: center;
+    text-align: justify;
     
     
     
@@ -80,7 +81,7 @@ margin-top: 0px;
 
     grid-area: nav;
     border:3px solid black;
-   
+   padding: 15px;
     
 }
     
@@ -103,6 +104,8 @@ margin-top: 0px;
 font-size: 35px;
 color: rgb(62, 36, 87);
 grid-area: ma;
+text-align: justify;
+padding: 20px;
 
 }
 
