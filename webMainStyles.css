@@ -62,7 +62,6 @@ margin-top: 0px;
     color: black;
     font-size: 25px;
     text-align: center;
-     
     padding-bottom: 30px;
 }
 
@@ -71,7 +70,8 @@ margin-top: 0px;
     text-align: left;
     columns: 120px 1;
     padding-bottom: 20px;
-    background: olivedrab;
+    background:rgb(150, 28, 38);
+    
     
 
 }
@@ -80,9 +80,22 @@ margin-top: 0px;
 
     grid-area: nav;
     border:3px solid black;
+   
+    
 }
     
+.button{
+    color: lightgrey;
+    border: 3px solid black;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 20PX;
+  
 
+
+}
 
 
 /* Main Article */
@@ -103,7 +116,7 @@ grid-area: ma;
 /* Footer Stylings */
 #ft{
     font-size: 20px;
-    background: rgb(110, 35, 35);
+    background: maroon;
     text-align: center;
     grid-area: ft;
 }
@@ -114,7 +127,7 @@ grid-area: ma;
 .container{
     display: grid;
     width: 100%;
-    grid-template-columns: 250px 1100px ;
+    grid-template-columns: 200px 1000px ;
     grid-template-rows: 155px repeat(2, 1fr) 250px 40px;
     grid-template-areas: 
     "hd hd hd hd hd"
@@ -122,5 +135,4 @@ grid-area: ma;
     "nav ma ma ma ma"
     "nav ma ma ma ma"
     "ft ft ft ft ft";
-   color:blue;
-}
+   background: lightgray;
