@@ -1,0 +1,67 @@
+/* Styles for the Archive Page */
+
+/* CSS reset*/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: lightgrey;
+    border:black solid 5px;
+    padding: 10px;
+
+}
+
+/* Master Container */
+.container{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 200px 1000px ;
+    grid-template-rows: 155px repeat(2, 1fr) 250px 40px;
+    grid-template-areas: 
+    "hd hd hd hd hd"
+    "nav hdm hdm hdm hdm"
+    "nav ma ma ma ma"
+    "nav ma ma ma ma"
+    "ft ft ft ft ft";
+   background: lightgray;}
+
+/* Headers */
+.heads{
+    font-style: italic;
+    color: olivedrab; 
+     grid-area: hd;
+    
+}
+
+#h1{
+    font-size: 78px;
+    text-align: justify;
+    
+    
+    
+}
+#h2{
+    font-size: 35px;
+    text-align: center;
+    
+
+}
+
+/* Navigation */
+#h3{
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 30px;
+}
