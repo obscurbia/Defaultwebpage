@@ -28,12 +28,7 @@
     width: 100%;
     grid-template-columns: 200px 1000px ;
     grid-template-rows: 155px repeat(2, 1fr) 250px 40px;
-    grid-template-areas: 
-    "hd hd hd hd hd"
-    "nav hdm hdm hdm hdm"
-    "nav ma ma ma ma"
-    "nav ma ma ma ma"
-    "ft ft ft ft ft";
+    
    background: lightgray;}
 
 /* Headers */
@@ -48,13 +43,11 @@
     font-size: 78px;
     text-align: justify;
     
-    
-    
 }
+
 #h2{
     font-size: 35px;
     text-align: center;
-    
 
 }
 
@@ -64,4 +57,22 @@
     font-size: 25px;
     text-align: center;
     padding-bottom: 30px;
+    grid-area: nav;
+}
+.navbox{
+    font-size: 20px;
+    text-align: left;
+    columns: 120px 1;
+    padding-bottom: 20px;
+    background:rgb(150, 28, 38);
+
+}
+
+
+/* Footer Stylings */
+#ft{
+    font-size: 20px;
+    background: maroon;
+    text-align: center;
+    grid-area: ft;
 }
