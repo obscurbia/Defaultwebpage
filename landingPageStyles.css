@@ -12,11 +12,21 @@
     background: transparent;
 }
 
+/*Main Container*/
 .mContainer{
-    display:flex;
+display:flex;
 background-color: dimgrey;
+padding: 10px;
+align-items: flex-end;
 }
 
+.naviContainer{
+display: flex;
+background-color: gray;
+padding: 5px;
+
+
+}
 /*Headers*/
 #h1 {
     font-size: 80px;
