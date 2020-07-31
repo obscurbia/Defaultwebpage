@@ -17,6 +17,7 @@
     display:flex;
     background-color: silver;
     padding: 10px;
+    text-align:  center;
     
 }
 
@@ -24,7 +25,8 @@
 
 .headContainer{
     display: flex;
-    padding-left: 30px;
+    
+
 }
 
 #h1 {
@@ -71,21 +73,28 @@
     padding-left: 65px;
     border: black solid 5px;
     width:85%;
+    flex-direction: column;
 }
 
 #h2{
     font-size: 80px;
     text-align: center;
     font-family: sans-serif;
+    
 }
 
 #h4{
-    font-size: 65px;
-    text-align: left;
+    font-size: 40px;
+    text-align: right;
     font-family: sans-serif;
+    border-bottom: black solid 2px;
+    
 }
 
-
+#fullArt{
+    font-family: sans-serif;
+    text-align: center;
+}
 
 
 /*                sitewide navigation             */
@@ -113,10 +122,15 @@
 }
 
 /*               Footer                 */
+.ftContainer{
+    background-color: teal;
+}
+
 #ft{
     font-size: 15px;
-    text-align: center;
+    padding-left: 325px; /* Not sure why it wouldn't center the text; this works though*/
     background-color: teal;
     font-family: sans-serif;
     
+    font-style: italic;   
 }
