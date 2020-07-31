@@ -13,21 +13,22 @@
         <h1 id = "h1"> The Covidning</h1>
 
 
-        <div class = "mContainer" id= "navi">
-            <div class = "naviContainer">
-                <button><a href = "landingPage.html"> Home </a></button>
+        <div class = "mContainer" id = "navibar">
+
+            <div class = "naviContainer" >
+                <a id = "navi" href = "landingPage.html"> Home</a>
             </div>
 
-            <div class = "naviContainer">
-                <button><a href = "4thPost.html"> Current Post</a></button>
+            <div class = "naviContainer" id = "navi">
+                <a id = "navi" href = "4thPost.html"> Current Post</a>
             </div>
 
-            <div class = "naviContainer">
-                <button><a href = "1stPost.html"> Oldest Post </a></button>
+            <div class = "naviContainer" id = "navi">
+                <a id = "navi" href = "1stPost.html"> Oldest Post </a>
             </div>
 
-            <div class = "naviContainer">
-                <button><a href = "about.html"> About </a></button>
+            <div class = "naviContainer" id = "navi">
+                <a id = "navi" href = "about.html"> About </a>
             </div>
 
         </div>
@@ -38,14 +39,14 @@
             <div class ="artContainer"> 
                 
                 <article id = "art">
-                    <h3 id = "h3"> <a href="4thPost.html"> Once More Unto Breach</a></h3>
+                    <h3 > <a id = h3 href="4thPost.html"> Once More Unto Breach</a></h3>
 
                     Summary and title
                 </article>
 
             
                 <article id = "art">
-                    <h3 id = "h3"> <a href="3rdPost.html"> Mid-Summer Blues</a></h3>
+                    <h3 > <a id = "h3" href="3rdPost.html"> Mid-Summer Blues</a></h3>
 
                     Summary and title
                     
@@ -61,13 +62,13 @@
             <div class ="artContainer"> 
             
                 <article id = "art">
-                    <h3 id = "h3"><a href="2ndPost.html"> WoodWorkers paradise</a> </h3>
-
-                    Summary and title
+                    <h3 ><a id = "h3" href="2ndPost.html"> WoodWorkers paradise</a> </h3> <!-- Child element did not inhereit parent attributes so 
+                                                                                                h3 was passed to the <a> -->
+                     Summary and title
                 </article>
                 
                 <article id = "art">
-                    <h3 id = "h3"><a href="1stPost.html"> What do now?</a></h3>
+                    <h3 ><a id = "h3" href="1stPost.html"> What do now?</a></h3>
 
                     Summary and title
                 </article>
@@ -76,7 +77,7 @@
         </div>
 
  <!-- Footer -->
-        <footer class = "mContainer" id = "ft">
+        <footer style= "text-align: center;"class = "mContainer" id = "ft">
             Created with love by Daniel Atlas Uvina
         </footer>
 

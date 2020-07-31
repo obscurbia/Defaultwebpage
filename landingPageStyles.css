@@ -17,19 +17,27 @@
     display:flex;
     background-color: lightgray;
     padding: 10px;
+    
 }
 
 /*Additional containers*/
 .naviContainer{
     display: flex;
-    background-color: gray;
+    background-color:black;
     padding: 5px;
-    padding-right: 20px;
+    
+    border: black solid 5px;
+    text-decoration: none;
+    width: 100%;
+
+    
 }
 
 .headContainer{
     display: flex;
     padding-left: 30px;
+    text-decoration: none;
+
 
 }
 
@@ -50,30 +58,40 @@
     width:85%;
 }
 
+
 /*Headers*/
 #h1 {
+    font-family: sans-serif;
+    font-style: italic;
     font-size: 80px;
     color: black;
     text-align:left;
     background-color: teal;
+    padding-left: 5px;
 }
 
 #h3{
     color: black;
     font-size: 45px;
-    text-align: left;
-    padding: 5px;
+    text-align: right;
+    padding: 1px;
+    text-decoration: underline;
+    font-family: sans-serif;
 }
 
 
 #h2{
     font-size: 80px;
     text-align: center;
+    font-family: sans-serif;
+    
 }
 
 #h4{
     font-size: 65px;
     text-align: left;
+    font-family: sans-serif;
+    
 }
 /* Articles*/
 #art{
@@ -83,31 +101,28 @@
     padding-left: 5px;
     border: black solid 5px;
     width: 45%;
+    
 }
-#art3{ font-size: 30Px;
-    color: indigo;
-    text-align: center;
-    padding-left: 5px;
-    border: black solid 5px;
-    width: 45%;
+#navi{
+    color:teal;
+    font-size: 25px;
+    
+    text-decoration: none;
+    font-family: sans-serif;
+    
+
+
 }
-#art4{ font-size: 30Px;
-    color: indigo;
-    text-align: center;
-    padding-left: 5px;
-    border: black solid 5px;
-    width: 45%;
+#navibar{
+    background-color: teal;
+    text-decoration: none;
 }
-#art3{ font-size: 30Px;
-    color: indigo;
-    text-align: center;
-    padding-left: 5px;
-    border: black solid 5px;
-    width: 45%;
-}
+
 /*Footer*/
 #ft{
-    font-size: 25px;
+    font-size: 15px;
     text-align: center;
     background-color: teal;
+    font-family: sans-serif;
+    
 }
