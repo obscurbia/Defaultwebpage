@@ -127,8 +127,8 @@
 }
 
 #ft{
-    font-size: 15px;
-    padding-left: 325px; /* Not sure why it wouldn't center the text; this works though*/
+    font-size: 14px;
+    padding-left: 38%; /* Not sure why it wouldn't center the text; this works though*/
     background-color: teal;
     font-family: sans-serif;
     
