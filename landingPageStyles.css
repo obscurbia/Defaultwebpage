@@ -1,4 +1,4 @@
-/*Stylings for Landing Page*/
+/*Stylings for web project*/
 
 /* CSS reset*/
 /* eliminates issues with certain browsers by setting certain settings to default*/
@@ -12,54 +12,21 @@
     background: transparent;
 }
 
-/*Main Container*/
+/*      Main Container      */
 .mContainer{
     display:flex;
-    background-color: lightgray;
+    background-color: silver;
     padding: 10px;
     
 }
 
-/*Additional containers*/
-.naviContainer{
-    display: flex;
-    background-color:black;
-    padding: 5px;
-    
-    border: black solid 5px;
-    text-decoration: none;
-    width: 100%;
-
-    
-}
+/*              site-wide Header           */
 
 .headContainer{
     display: flex;
     padding-left: 30px;
-    text-decoration: none;
-
-
 }
 
-.artContainer{
-    display: flex;
-    background-color: lightgray;
-    width: 85%;
-    height: 375px;
-    
-    justify-content: space-between;
-}
-
-.fullArtContainer{
-    display: flex;
-    height: 800px;
-    padding-left: 65px;
-    border: black solid 5px;
-    width:85%;
-}
-
-
-/*Headers*/
 #h1 {
     font-family: sans-serif;
     font-style: italic;
@@ -68,6 +35,15 @@
     text-align:left;
     background-color: teal;
     padding-left: 5px;
+}
+
+ /*             Landing page stylings             */
+ .artContainer{
+    display: flex;
+    background: silver;
+    width: 90%;
+    height: 375px;
+    justify-content: space-between;
 }
 
 #h3{
@@ -79,21 +55,6 @@
     font-family: sans-serif;
 }
 
-
-#h2{
-    font-size: 80px;
-    text-align: center;
-    font-family: sans-serif;
-    
-}
-
-#h4{
-    font-size: 65px;
-    text-align: left;
-    font-family: sans-serif;
-    
-}
-/* Articles*/
 #art{
     font-size: 30Px;
     color: indigo;
@@ -101,24 +62,57 @@
     padding-left: 5px;
     border: black solid 5px;
     width: 45%;
-    
 }
+
+/*          Article page  stylings        */
+.fullArtContainer{
+    display: flex;
+    height: 800px;
+    padding-left: 65px;
+    border: black solid 5px;
+    width:85%;
+}
+
+#h2{
+    font-size: 80px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#h4{
+    font-size: 65px;
+    text-align: left;
+    font-family: sans-serif;
+}
+
+
+
+
+/*                sitewide navigation             */
+.naviContainer{
+    display: flex;
+    background-color:black;
+    padding: 5px;
+    
+    border: black solid 5px;
+    text-decoration: none;
+    width: 100%;
+}
+
 #navi{
     color:teal;
     font-size: 25px;
     
     text-decoration: none;
     font-family: sans-serif;
-    
-
-
 }
+
 #navibar{
     background-color: teal;
     text-decoration: none;
 }
 
-/*Footer*/
+/*               Footer                 */
 #ft{
     font-size: 15px;
     text-align: center;
