@@ -58,13 +58,20 @@
 }
 
 #art{
-    font-size: 30Px;
+    font-size: 35Px;
     color: indigo;
     text-align: center;
     padding-left: 5px;
     border: black solid 5px;
     width: 45%;
 }
+ #artSum{
+    font-family: sans-serif;
+    color: indigo;
+    text-align: center;
+    padding: 5px;
+
+ }
 
 /*          Article page  stylings        */
 .fullArtContainer{
@@ -93,8 +100,10 @@
 
 #fullArt{
     font-family: sans-serif;
-    text-align: center;
+    text-align: left;
+    font-size: 20px;
 }
+
 
 
 /*                sitewide navigation             */
